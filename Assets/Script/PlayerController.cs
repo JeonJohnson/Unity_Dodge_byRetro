@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
 		#endregion
 	}
 
-	void PlayerDie()
+	public void PlayerDie()
     {
         gameObject.SetActive(false);
     }
