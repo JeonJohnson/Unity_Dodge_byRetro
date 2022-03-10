@@ -27,6 +27,7 @@ public class Bullet : MonoBehaviour
             if (playerCnt != null)
             {
                 playerCnt.PlayerDie();
+                
             }
         }
 

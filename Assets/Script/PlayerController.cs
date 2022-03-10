@@ -50,6 +50,8 @@ public class PlayerController : MonoBehaviour
 	public void PlayerDie()
     {
         gameObject.SetActive(false);
+
+		GameMgr.instance.GameEnd();
     }
 
 	private void Awake()
